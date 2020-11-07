@@ -9,6 +9,7 @@ use Symfony\Component\OptionsResolver\Exception\NoSuchOptionException;
 use Symfony\Component\Routing\Annotation\Route;
 
 
+
 class BlogController extends AbstractController
 {
     /**
