@@ -20,10 +20,17 @@ class BlogController extends AbstractController
 
     }
 
+    /**
+     * @route("/", name="blog_index")
+     */
+    public function index():Response
+    {
+
+    }
 
     /**
      *
-     * @Route ("/blog/{slug}", name="blog_show")
+     * @Route ("/article/{slug}", name="blog_post")
      */
     public function show(string $slug):Response
     {
